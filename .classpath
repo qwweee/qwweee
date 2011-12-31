@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.5-bin.jar"/>
+	<classpathentry kind="lib" path="lib/c3p0-0.9.1.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:doc/c3p0-0.9.1.2-doc.zip!/doc/apidocs"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/fast-md5.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:doc/fast-md5-doc.zip!/javadoc"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
